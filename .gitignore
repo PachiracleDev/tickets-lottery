@@ -1,2 +1,15 @@
 .env
 
+# Archivos y directorios generados por el entorno de desarrollo
+bin/
+pkg/
+*.db
+*.log
+
+# Dependencias gestionadas por Go Modules
+/go.sum
+/go.mod
+
+# Archivos ejecutables
+*.exe
+*.out
